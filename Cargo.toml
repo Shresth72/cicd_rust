@@ -1,0 +1,30 @@
+[package]
+name = "cicd_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = { version = "0.4.3", features = ["serde"] }
+semver = { version = "1.0.16", features = ["serde"] }
+serde = { version = "1.0.152", features = ["derive", "rc"] }
+
+[dev-dependencies]
+# for rust 1.x, cargo version is 0.(x+1)
+crates-io = "0.35"
+cargo = "0.78.1"
+crates-index = "2.5"
+tempfile = "3.3.0"
+flate2 = "1.0.25"
+tar = "0.4.38"
+toml_edit = { version = "0.19", features = ["serde"] }
+serde_json = "1"
+proptest = "1.1.0"
+
+# for -Zminimal-versions
+openssl = "0.10.38"
+crossbeam-channel = "0.3.9"
+pkg-config = "0.3.16"
+hkdf = "0.12.3"
+p384 = "0.11.2"

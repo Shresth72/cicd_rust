@@ -17,6 +17,13 @@ git fetch ci
 git merge --allow-unrelated-histories ci/main
 ```
 
+Now, whenever changes are applied to the remote repo, we can fetch and merge the changes directly in our repo
+
+```bash
+git fetch ci
+git merge ci/main
+```
+
 An overview of the files in this project is available at:
 <https://www.youtube.com/watch?v=xUH-4y92jPg&t=491s>, which contains some
 rationale for decisions and runs through an example of solving minimal version

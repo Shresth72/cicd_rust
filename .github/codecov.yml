@@ -12,7 +12,7 @@ coverage:
         threshold: 1%
 
 # Test files aren't important for coverage
-ignore:
+gnore:
   - "tests"
 
 # Make comments less noisy

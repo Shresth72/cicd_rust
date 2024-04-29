@@ -28,3 +28,5 @@ An overview of the files in this project is available at:
 <https://www.youtube.com/watch?v=xUH-4y92jPg&t=491s>, which contains some
 rationale for decisions and runs through an example of solving minimal version
 and OpenSSL issues.
+
+### Safety.yml and nosted.yml workflows not needed for basic rust tesing
